@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="/style1.css" />
+  <link rel="stylesheet" href="/mediaqueries.css" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="./font-awesome/css/font-awesome.css">
+
+
+</head>
+
+<body>
+  <nav id="desktop-nav">
+    <div class="logo" onclick="location.href='/index.html'">My Portfolio</div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="./big_project.html">Project 1</a></li>
+        <li><a href="./hclub.html">Project 2</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo" onclick="location.href='/index.html'">My Portfolio</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="./big_project.html" onclick="toggleMenu()">Project 1</a></li>
+        <li><a href="./hclub.html" onclick="toggleMenu()">Project 2</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+      </div>
+    </div>
+  </nav>
+
+  <section id="about1">
+    <p class="section__text__p1">Details</p>
+    <h1 class="title">Koto Club</h1>
+    <div class="section1-container">
+      <div class="section__pic2-container">
+        <img src="/assets/project-showoff/koto/koto2.jpg" alt="Profile picture" class="project-pic" />
+        <img src="/assets/project-showoff/koto/koto1.jpg" alt="Profile picture" class="project-pic" />
+        <img src="/assets/project-showoff/koto/koto3.jpg" alt="Profile picture" class="project-pic" />
+        <img src="/assets/project-showoff/koto/koto4.jpg" alt="Profile picture" class="project-pic" />
+        <img src="/assets/project-showoff/koto/koto5.jpg" alt="Profile picture" class="project-pic" />
+      </div>
+
+      <div class="about-details-container">
+        <div class="text-container">
+          <h2 style="margin-top: 10px;">Work done in the project</h2>
+          <ul>
+            <li>Write content and manage fanpage on Facebook, Instagram</li>
+            <li>Manage and build Tiktok, Youtube channel</li>
+            <li>Seeding campaign on Tripadvisor, Google Maps</li>
+            <li>Make moodboards, concept ideas, entertainment events, discounts, promotions each month </li>
+            <li>Design poster publications </li>
+            <li>Build motion posters, Visual LEDs, Logo intro & outro </li>
+            <li>Build highlight clip, Recap moment</li>
+            <li>Organize Halloween and Mid-Autumn events</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="section2-container">
+      <h1 class="title">Project overview</h1>
+      <div class="section__pj-container1">
+        <img src="/assets/project-showoff/koto/ko1.png" alt="Profile picture" class="project-pic" />
+        <img src="/assets/project-showoff/koto/ko2.png" alt="Profile picture" class="project-pic" />
+      </div>
+      <div class="section__pj-container1">
+        <img src="/assets/project-showoff/koto/ko3.png" alt="Profile picture" class="project-pic" />
+        <img src="/assets/project-showoff/koto/ko4.png" alt="Profile picture" class="project-pic" />
+        <img src="/assets/project-showoff/koto/ko5.png" alt="Profile picture" class="project-pic" />
+      </div>
+
+    </div>
+    <div class="about-details-container">
+      <div class="text-container">
+        <h2>Project information</h2>
+        <ul>
+          <li>9.4k Likes, 10k Followers on Facebook </li>
+          <li>12.7k Likes, 3965 Followers on TikTok</li>
+          <li>27 Subscribers on Youtube</li>
+          <li>6507 Followers on Instagram</li>
+        </ul>
+      </div>
+    </div>
+    <img src="/assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='/#experience'" />
+  </section>
+
+  <!-- Video clip -->
+
+  <section id="videos">
+    <p class="section__text__p1">Browse My Recent</p>
+    <h1 class="title">Video</h1>
+    <div class="video-details-container">
+      <div class="about1-containers">
+
+        <!-- Video số 2 -->
+        <div class="details-container color-container">
+          <div class="article-container">
+            <iframe class="project-video"
+              src="https://drive.google.com/file/d/1fZ6rN4hbm1M6iGywCc-eUytANhWgaS4n/preview" frameborder="0"
+              allowfullscreen width="640" height="480" allow="autoplay"></iframe>
+          </div>
+          <h2 class="experience-sub-title project-title">Motion Poster</h2>
+          <p>1k5 View</p>
+          <div class="btn-container">
+            <button class="btn btn-color-2 video-btn"
+              onclick="location.href='https://www.facebook.com/reel/3414448552104321'">
+              Link
+            </button>
+          </div>
+        </div>
+        <!-- video số 1 -->
+        <div class="details-container color-container">
+          <div class="article-container">
+            <iframe class="project-video"
+              src="https://drive.google.com/file/d/1HKChp-UD_cdzF1VS-kBoBQ5dMn5LCqaX/preview" frameborder="0"
+              allowfullscreen width="640" height="480" allow="autoplay"></iframe>
+          </div>
+          <h2 class="experience-sub-title project-title">Motion Poster</h2>
+          <p>471 View</p>
+          <div class="btn-container">
+            <button class="btn btn-color-2 video-btn"
+              onclick="location.href='https://www.facebook.com/KotoClubVN/videos/643532101258771'">
+              Link
+            </button>
+          </div>
+        </div>
+        <!-- video số 3 -->
+        <div class="details-container color-container">
+          <div class="article-container">
+            <iframe class="project-video"
+              src="https://drive.google.com/file/d/1_hJZmwumhqx-bzP9Gh1PABPOJ3ov2RGc/preview" frameborder="0"
+              allowfullscreen width="640" height="480" allow="autoplay"></iframe>
+          </div>
+          <h2 class="experience-sub-title project-title">Motion Poster</h2>
+          <p>243 View</p>
+          <div class="btn-container">
+            <button class="btn btn-color-2 video-btn"
+              onclick="location.href='https://www.facebook.com/KotoClubVN/videos/316295444378598'">
+              Link
+            </button>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+  <!-- Contact -->
+  <section id="contact">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img src="/assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
+        <p><a href="mailto:examplemail@gmail.com">hieumaitruong26@gmail.com</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img src="/assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
+        <p><a href="https://www.linkedin.com/in/hieu-mai-truong/">LinkedIn</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img src="/assets/zalo-black.jpg" alt="phonecall" class="icon contact-icon" />
+        <p>0332067464</p>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="./big_project.html">Project 1</a></li>
+          <li><a href="./hclub.html">Project 2</a></li>
+
+        </ul>
+      </div>
+    </nav>
+    <p>Copyright &#169; 2024 Đức Hiếu. All Rights Reserved.</p>
+  </footer>
+  <script src="/script.js"></script>
+</body>
+
+</html>

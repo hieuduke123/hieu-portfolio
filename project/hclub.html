@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="/style1.css" />
+  <link rel="stylesheet" href="/mediaqueries.css" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="./font-awesome/css/font-awesome.css">
+
+
+</head>
+
+<body>
+  <nav id="desktop-nav">
+    <div class="logo" onclick="location.href='/index.html'">My Portfolio</div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="./big_project.html">Project 1</a></li>
+        <li><a href="./koto.html">Project 3</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo" onclick="location.href='/index.html'">My Portfolio</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="./big_project.html" onclick="toggleMenu()">Project 1</a></li>
+        <li><a href="./koto.html" onclick="toggleMenu()">Project 3</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+      </div>
+    </div>
+  </nav>
+
+  <section id="about1">
+    <p class="section__text__p1">Details</p>
+    <h1 class="title">H2 Club</h1>
+    <div class="section1-container">
+      <div class="section__pic1-container">
+        <img src="/assets/project-showoff/h2/hcl2.jpg" alt="Profile picture" class="project-pic" />
+        <img src="/assets/project-showoff/h2/hcl3.jpg" alt="Profile picture" class="project-pic" />
+        <img src="/assets/project-showoff/h2/hcl1.jpg" alt="Profile picture" class="project-pic" />
+        <img src="/assets/project-showoff/h2/hcl4.jpg" alt="Profile picture" class="project-pic" />
+        <img src="/assets/project-showoff/h2/hcl5.jpg" alt="Profile picture" class="project-pic" />
+      </div>
+
+
+      <div class="about-details-container">
+        <div class="text-container">
+          <h2>Work done in the project</h2>
+          <ul>
+            <li>Write content and manage fanpage on Facebook</li>
+            <li>Manage and build Tiktok, Youtube channel</li>
+            <li>Come up with concept ideas every month </li>
+            <li>Make moodboards each month </li>
+            <li>Design poster publications </li>
+            <li>Build motion posters </li>
+            <li>Build highlight clip, Recap moment</li>
+            <li>Facebook ADS</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="section2-container">
+      <h1 class="title">Project overview</h1>
+      <div class="section__pj-container1">
+        <img src="/assets/project-showoff/h2/h1.png" alt="Profile picture" class="project-pic" />
+        <img src="/assets/project-showoff/h2/h2.png" alt="Profile picture" class="project-pic" />
+      </div>
+      <div class="section__pj-container1">
+        <img src="/assets/project-showoff/h2/h3.png" alt="Profile picture" class="project-pic" />
+        <img src="/assets/project-showoff/h2/h4.png" alt="Profile picture" class="project-pic" />
+        <img src="/assets/project-showoff/h2/h5.png" alt="Profile picture" class="project-pic" />
+      </div>
+
+    </div>
+    <div class="about-details-container">
+      <div class="text-container">
+        <h2 style="margin-top: 10px;">Project information</h2>
+        <ul>
+          <li>16k Likes, 18k Followers on Facebook</li>
+          <li>5606 Likes, 1215 Followers on Tiktok</li>
+          <li>63 Subscribers on Youtube</li>
+        </ul>
+      </div>
+    </div>
+    <img src="/assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='/#experience'" />
+  </section>
+
+  <!-- Video clip -->
+
+  <section id="videos">
+    <p class="section__text__p1">Browse My Recent</p>
+    <h1 class="title">Video</h1>
+    <div class="video-details-container">
+      <div class="about1-containers">
+        <!-- video số 5 -->
+        
+      </div>
+      <div class="about1-containers">
+        <div class="details-container color-container">
+          <div class="article-container">
+            <iframe  class="project-video" src="https://drive.google.com/file/d/1YP5lWSPJc5v-8nYJM81ZqvrFbWU9PS-l/preview" frameborder="0" allowfullscreen width="640" height="480" allow="autoplay"></iframe>
+          </div>
+          <h2 class="experience-sub-title project-title">Highlight</h2>
+          <p>1k View on Facebook</p>
+          <p>7925 View on Tiktok</p>
+          <div class="btn-container">
+            <button class="btn btn-color-2 video-btn"
+              onclick="location.href='https://www.facebook.com/100084720904447/videos/1221196135723513'">
+              Link Facebook
+            </button>
+            <button class="btn btn-color-2 video-btn"
+              onclick="location.href='https://www.tiktok.com/@h2club.hanam/video/7306077028619455752'">
+              Link Tiktok
+            </button>
+          </div>
+        </div>
+        
+        <!-- video số 1 -->
+        <div class="details-container1 color-container">
+          <div class="article-container">
+            <iframe  class="project-video" src="https://drive.google.com/file/d/1bwuHjGONCTIKpOZNeQE7BuIg9x646v0h/preview" frameborder="0" allowfullscreen width="640" height="480" allow="autoplay"></iframe>
+          </div>
+          <h2 class="experience-sub-title project-title">Highlight</h2>
+          <p>16k View on Facebook</p>
+          <p>2920 View on Tiktok</p>
+          <div class="btn-container">
+            <button class="btn btn-color-2 video-btn"
+              onclick="location.href='https://www.facebook.com/reel/1100700697530488'">
+              Link Facebook
+            </button>
+            <button class="btn btn-color-2 video-btn"
+              onclick="location.href='https://www.tiktok.com/@h2club.hanam/video/7315278292360236295'">
+              Link Tiktok
+            </button>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+  <!-- Contact -->
+  <section id="contact">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img src="/assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
+        <p><a href="mailto:examplemail@gmail.com">hieumaitruong26@gmail.com</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img src="/assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
+        <p><a href="https://www.linkedin.com/in/hieu-mai-truong/">LinkedIn</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img src="/assets/zalo-black.jpg" alt="phonecall" class="icon contact-icon" />
+        <p>0332067464</p>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="./big_project.html">Project 1</a></li>
+        <li><a href="./koto.html">Project 3</a></li>
+        
+        </ul>
+      </div>
+    </nav>
+    <p>Copyright &#169; 2024 Đức Hiếu. All Rights Reserved.</p>
+  </footer>
+  <script src="/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="/style1.css" />
+  <link rel="stylesheet" href="/mediaqueries.css" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="./font-awesome/css/font-awesome.css">
+
+
+</head>
+
+<body>
+  <nav id="desktop-nav">
+    <div class="logo" onclick="location.href='/index.html'">My Portfolio</div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="/project/hclub.html">Project 2</a></li>
+        <li><a href="./koto.html">Project 3</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo" onclick="location.href='/index.html'">My Portfolio</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="./hclub.html" onclick="toggleMenu()">Project 2</a></li>
+        <li><a href="./koto.html" onclick="toggleMenu()">Project 3</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+      </div>
+    </div>
+  </nav>
+
+  <section id="about1">
+    <p class="section__text__p1">Details</p>
+    <h1 class="title">New Phoenix Club</h1>
+    <div class="section1-container">
+      <div class="section__pic1-container">
+        <img src="/assets/project-showoff/np1.jpg" alt="Profile picture" class="project-pic" />
+        <img src="/assets/project-showoff/np2.jpg" alt="Profile picture" class="project-pic" />
+        <img src="/assets/project-showoff/np3.jpg" alt="Profile picture" class="project-pic" />
+        <img src="/assets/project-showoff/np4.jpg" alt="Profile picture" class="project-pic" />
+        <img src="/assets/project-showoff/np5.jpg" alt="Profile picture" class="project-pic" />
+      </div>
+
+      <div class="section__pic1-container_1">
+        <img src="/assets/project-showoff/np6.jpg" alt="Profile picture" class="project-pic" />
+        <img src="/assets/project-showoff/np7.jpg" alt="Profile picture" class="project-pic" />
+        <img src="/assets/project-showoff/np6.jpg" alt="Profile picture" class="project-pic" />
+        <img src="/assets/project-showoff/np8.jpg" alt="Profile picture" class="project-pic" />
+
+      </div>
+
+      <div class="about-details-container">
+        <div class="text-container">
+          <h2 style="margin-top: 10px;">Work done in the project</h2>
+          <ul>
+            <li>Write content and manage fanpage on Facebook</li>
+            <li>Manage and build Tiktok channel</li>
+            <li>Come up with concept ideas every month </li>
+            <li>Make moodboards each month </li>
+            <li>Design poster publications </li>
+            <li>Build motion posters </li>
+            <li>Build highlight clip, Recap moment</li>
+            <li>Facebook ADS</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="section2-container">
+      <h1 class="title">Project overview</h1>
+      <div class="section__pj-container">
+        <img src="/assets/project-showoff/NPC/np1.png" alt="Profile picture" class="project-pic" />
+        <img src="/assets/project-showoff/NPC/np2.png" alt="Profile picture" class="project-pic" />
+      </div>
+      <div class="section__pj-container">
+        <img src="/assets/project-showoff/NPC/np3.png" alt="Profile picture" class="project-pic" />
+        <img src="/assets/project-showoff/NPC/np4.png" alt="Profile picture" class="project-pic" />
+      </div>
+
+    </div>
+    <div class="about-details-container">
+      <div class="text-container">
+        <h2 style="margin-top: 10px;">Project information</h2>
+        <ul>
+          <li>16k Likes, 18k Follower on Facebook</li>
+          <li>2696 Likes, 3378 Folloew on Tiktok</li>
+        </ul>
+      </div>
+    </div>
+    <img src="/assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='/#experience'" />
+  </section>
+
+  <!-- Video clip -->
+
+  <section id="videos">
+    <p class="section__text__p1">Browse My Recent</p>
+    <h1 class="title">Video</h1>
+    <div class="experience-details-container-np">
+      <div class="about1-containers">
+        <!-- video số 1 -->
+        <div class="details-container1 color-container">
+          <div class="article-container">
+            <iframe class="project-video"
+              src="https://drive.google.com/file/d/1miaX1eeS_V5CagyZGXwL0pjUQoRh0-nn/preview" frameborder="0"
+              allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+          </div>
+          <h2 class="experience-sub-title project-title">Motion Poster</h2>
+          <p>6900 View</p>
+          <div class="btn-container">
+            <button class="btn btn-color-2 video-btn"
+              onclick="location.href='https://www.facebook.com/reel/1110939993584464'">
+              Link
+            </button>
+          </div>
+        </div>
+        <!-- Video số 2 -->
+        <div class="details-container color-container">
+          <div class="article-container">
+            <iframe class="project-video"
+              src="https://drive.google.com/file/d/1HrDG40goVNBRaGBFG3x89KFdjIA1Ony3/preview" frameborder="0" allowfullscreen width="640" height="480"
+              allow="autoplay"></iframe>
+          </div>
+          <h2 class="experience-sub-title project-title">Motion Poster</h2>
+          <p>4300 View</p>
+          <div class="btn-container">
+            <button class="btn btn-color-2 video-btn"
+              onclick="location.href='https://www.facebook.com/reel/1086645519180547'">
+              Link
+            </button>
+          </div>
+        </div>
+        <!-- video số 3 -->
+        <div class="details-container color-container">
+          <div class="article-container">
+            <iframe class="project-video"
+              src="https://drive.google.com/file/d/1pN7VOt5Gg8HU2Ncy7k0lcoDPEs6E7_xk/preview" frameborder="0" allowfullscreen width="640" height="480"
+              allow="autoplay"></iframe>
+          </div>
+          <h2 class="experience-sub-title project-title">Motion Poster</h2>
+          <p>930 View</p>
+          <div class="btn-container">
+            <button class="btn btn-color-2 video-btn"
+              onclick="location.href='https://www.facebook.com/newphoenixclub/videos/672674024961792'">
+              Link
+            </button>
+          </div>
+        </div>
+
+      </div>
+      <div class="about1-containers">
+        <!-- video số 4 -->
+        <div class="details-container color-container">
+          <div class="article-container">
+            <iframe class="project-video"
+              src="https://drive.google.com/file/d/1hISgM5Beb5qEuj5KyCe6l7n0nSsHpabD/preview"  frameborder="0" allowfullscreen width="640" height="480"
+              allow="autoplay"></iframe>
+          </div>
+          <h2 class="experience-sub-title project-title">Highlight</h2>
+          <p>5500 View</p>
+          <div class="btn-container">
+            <button class="btn btn-color-2 video-btn"
+              onclick="location.href='https://www.facebook.com/reel/2602561566567292'">
+              Link
+            </button>
+          </div>
+        </div>
+         <!-- video số 7 -->
+         <div class="details-container color-container">
+          <div class="article-container">
+            <iframe class="project-video"
+              src="https://drive.google.com/file/d/1RM_MsgVpVnTT0d5PLYT85xUqThtRbael/preview" frameborder="0" allowfullscreen width="640" height="480"
+              allow="autoplay"></iframe>
+          </div>
+          <h2 class="experience-sub-title project-title">Highlight</h2>
+          <p>Với 10.8k View</p>
+          <div class="btn-container">
+            <button class="btn btn-color-2 video-btn"
+              onclick="location.href='https://www.tiktok.com/@new_phoenix_club/video/7272545153548651794?is_from_webapp=1&sender_device=pc&web_id=7228612030093133314'">
+              Link
+            </button>
+          </div>
+        </div>
+
+
+        <!-- video số 5 -->
+        <div class="details-container color-container">
+          <div class="article-container">
+            <iframe class="project-video"
+              src="https://drive.google.com/file/d/1kLIfjOULaJRYSok_8c07L5tV3TuspwUs/preview" frameborder="0" allowfullscreen width="640" height="480"
+              allow="autoplay"></iframe>
+          </div>
+          <h2 class="experience-sub-title project-title">Recap moment</h2>
+          <p>1400 View</p>
+          <div class="btn-container">
+            <button class="btn btn-color-2 video-btn"
+              onclick="location.href='https://www.facebook.com/newphoenixclub/videos/681168110220170'">
+              Link
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="about1-containers">
+       
+        <!-- video số 6 -->
+        <div class="details-container color-container">
+          <div class="article-container">
+            <iframe class="project-video"
+              src="https://drive.google.com/file/d/1nptyNjY1TPEmfNjaa8uHRdwdhY9hjtxl/preview" frameborder="0" allowfullscreen width="640" height="480"
+              allow="autoplay"></iframe>
+          </div>
+          <h2 class="experience-sub-title project-title">Highlight</h2>
+          <p>6723 View on Tiktok, 1400 View on Facebook</p>
+          <div class="btn-container">
+            <button class="btn btn-color-2 video-btn"
+              onclick="location.href='https://www.tiktok.com/@new_phoenix_club/video/7285273661077064968?is_from_webapp=1&sender_device=pc&web_id=7228612030093133314'">
+              Verse on Tiktok
+            </button>
+            <button class="btn btn-color-2 video-btn"
+              onclick="location.href='https://www.facebook.com/newphoenixclub/videos/1770087130174415'">
+              Verse on Facebook
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Contact -->
+  <section id="contact">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img src="/assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
+        <p><a href="mailto:examplemail@gmail.com">hieumaitruong26@gmail.com</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img src="/assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
+        <p><a href="https://www.linkedin.com/in/hieu-mai-truong/">LinkedIn</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img src="/assets/zalo-black.jpg" alt="phonecall" class="icon contact-icon" />
+        <p>0332067464</p>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="./hclub.html">Project 2</a></li>
+          <li><a href="./koto.html">Project 3</a></li>
+        </ul>
+      </div>
+    </nav>
+    <p>Copyright &#169; 2024 Đức Hiếu. All Rights Reserved.</p>
+  </footer>
+  <script src="/script.js"></script>
+</body>
+
+</html>
