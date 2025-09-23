@@ -1,0 +1,20 @@
+
+
+
+/* Các ảnh trong container */
+.ani-pic {
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+/* Hiệu ứng phóng to khi hover vào ảnh */
+.ani-pic:hover {
+  transform: scale(1.2);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* Bóng đổ mượt */
+  filter: brightness(1.1); /* Sáng hơn một chút */
+}
+
+

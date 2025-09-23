@@ -6,8 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>My Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="mediaqueries.css" />
+  <link rel="stylesheet" href="/style.css" />
+  <link rel="stylesheet" href="/animation.css" />
+  <link rel="stylesheet" href="/mediaqueries.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
   <link rel="stylesheet" href="./font-awesome/css/font-awesome.css">
 
@@ -45,20 +46,22 @@
       </div>
     </div>
   </nav>
+
+   <!-- Profile-->
   <section id="profile">
     <div class="section__pic-container">
-      <img src="./assets/Hieu1.jpg" alt="Đức Hiếu profile picture" />
+      <img src="./assets/ava.png" alt="Đức Hiếu profile picture" />
     </div>
     <div class="section__text">
       <p class="section__text__p1">Hello, I'm</p>
       <h1 class="title">Đức Hiếu</h1>
       <p class="section__text__p2">Content Creator</p>
       <div class="btn-container">
-        <button class="btn btn-color-2" onclick="window.open('./assets/CV-Content Creator-Mai Trương Đức Hiếu-VN.pdf')">
-          My CV (Vietnamese)
-        </button>
-        <button class="btn btn-color-2" onclick="window.open('./assets/CV-CONTENT CREATOR-Mai Trương Đức Hiếu-EN.pdf')">
-          My CV (English)
+        <!-- <button class="btn btn-color-2" onclick="window.open('./assets/CV-Content Creator-Mai Trương Đức Hiếu-VN.pdf')">
+          Slide Portfolio
+        </button> -->
+        <button class="btn btn-color-2" onclick="window.open('https://drive.google.com/file/d/1XwVYWoq3rMyMV1uuji_9zABvRt-SnEKa/view?usp=drive_link')">
+          My CV
         </button>
         <button class="btn btn-color-1" onclick="location.href='./#contact'">
           Contact Info
@@ -137,22 +140,31 @@
           <!-- kết thúc html modal -->
         </div>
   </section>
+
+   <!-- About Me -->
   <section id="about">
     <p class="section__text__p1">Get To Know More</p>
     <h1 class="title">About Me</h1>
     <div class="section-container">
-      <div class="section__pic-container_1">
-        <img src="./assets/1.png" alt="Profile picture" class="about-pic" />
-      </div>
+      <!-- VIDEO PORT-->
+      <div class="port-container">            
+        <iframe class="port-video" 
+                src="https://drive.google.com/file/d/1lTIyIs0huvg3b8sRnu3jYCaFLXz0iobU/preview" 
+                frameborder="0" 
+                allowfullscreen  
+                allow="autoplay">
+        </iframe>          
+      </div>   
+
       <div class="about-details-container">
         <div class="about-containers">
           <div class="details-container">
             <img src="./assets/experience.png" alt="Experience icon" class="icon" />
             <h3>Experience</h3>
-            <p>1+ Year <strong>Content Creator</strong> </p>
-            <p>0.5 Year <strong>Account Designer</strong></p>
-            <p>1+ Year <strong>Freelancer Content</strong></p>
-            <p>1+ Year <strong>Freelancer Designer & Editor</strong></p>
+            <p>2.5+ Year <strong>Content Creator</strong> </p>
+            <p>1.5 Year <strong>Account Designer</strong></p>
+            <p>2.5+ Year <strong>Freelancer Content</strong></p>
+            <p>2.5+ Year <strong>Freelancer Designer & Editor</strong></p>
           </div>
           <div class="details-container">
             <img src="./assets/education.png" alt="Education icon" class="icon" />
@@ -174,8 +186,10 @@
         </div>
       </div>
     </div>
-    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
+  
   </section>
+
+   <!-- Experience-->
   <section id="experience">
     <p class="section__text__p1">Explore My</p>
     <h1 class="title">Experience</h1>
@@ -183,7 +197,7 @@
       <div class="about-containers">
         <div class="details-container">
           <h2 class="experience-sub-title">Content Creator</h2>
-          <p class="experience-day">March 2023 - March 2024</p>
+          <p class="experience-day">March 2023 - Present</p>
           <div class="article-container">
             <article>
               <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
@@ -233,7 +247,7 @@
         </div>
         <div class="details-container">
           <h2 class="experience-sub-title">Account Designer</h2>
-          <p class="experience-day">August 2023 - March 2024</p>
+          <p class="experience-day">August 2023 - Present</p>
           <div class="article-container">
             <article>
               <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
@@ -345,8 +359,10 @@
         </div>
       </div>
     </div>
-    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
+  
   </section>
+
+
   <!-- Project -->
   <section id="projects">
     <p class="section__text__p1">Browse My Recent</p>
@@ -403,10 +419,72 @@
               Project Link
             </button>
           </div>
+      
+      
         </div>
-      </div>
+
+
+
     </div>
-    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
+     <div class="about-containers">
+          <!-- Tar.Chitect -->
+          <div class="details-container color-container">
+            <div class="article-container">
+  
+              <img src="./assets/project-showoff/tarchitect/t9.jpg" alt="Project 2" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">Tar.chitect Design</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='./project/Tarchitect.html'">
+                View Project
+              </button>
+              <button class="btn btn-color-2 project-btn"
+                onclick="location.href='https://www.facebook.com/TAR.CHITECTDESIGN'">
+                Project Link
+              </button>
+            </div>
+          </div>
+
+           <!-- VIVI HUYNH BEAUTY-->
+ <div class="details-container color-container">
+            <div class="article-container">
+  
+              <img src="./assets/project-showoff/vici/vivi5.png" alt="Project 2" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">VIVI HUYNH BEAUTY</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='./project/vivi.html'">
+                View Project
+              </button>
+              <button class="btn btn-color-2 project-btn"
+                onclick="location.href='https://www.facebook.com/vivihuynhspa'">
+                Project Link
+              </button>
+            </div>
+          </div>
+
+            <!-- CICI BEAUTY & ACADEMY-->
+              <div class="details-container color-container">
+            <div class="article-container">
+  
+              <img src="./assets/project-showoff/vici/ciciout.png" alt="Project 2" class="project-img" />
+
+
+            </div>
+            <h2 class="experience-sub-title project-title">CICI BEAUTY & ACADEMY</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='./project/cici.html'">
+                View Project
+              </button> 
+              <button class="btn btn-color-2 project-btn"
+                onclick="location.href='https://www.facebook.com/globalcicibeauty' ">
+                Project Link
+              </button>
+            </div>
+          </div>
+
+     </div>
+   
   </section>
 
   <!-- My project was join -->
@@ -442,34 +520,66 @@
     </div>
   </section>
   <!-- Another project -->
-  <section id="another">
-    <div class="section-container1">
-      <h1 class="title">All Project Was Joined</h1>
-      <div class="process-details-container">
-      </div>
-      <div class="section__ani-container1">
-        <img src="./assets/anot/a1.jpg" alt="Profile picture" class="ani-pic" />
-        <img src="./assets/anot/a2.jpg" alt="Profile picture" class="ani-pic" />
-        <img src="./assets/anot/a3.jpg" alt="Profile picture" class="ani-pic" />
-        <img src="./assets/anot/a4.jpg" alt="Profile picture" class="ani-pic" />
-        <img src="./assets/anot/a5.jpg" alt="Profile picture" class="ani-pic" />
-        <img src="./assets/anot/a6.jpg" alt="Profile picture" class="ani-pic" />
-        <img src="./assets/anot/a7.jpg" alt="Profile picture" class="ani-pic" />
-        <img src="./assets/anot/a8.jpg" alt="Profile picture" class="ani-pic" />
-      </div>
-      <div class="section__ani-container1">
-        <img src="./assets/anot/a9.jpg" alt="Profile picture" class="ani-pic" />
-        <img src="./assets/anot/a10.jpg" alt="Profile picture" class="ani-pic" />
-        <img src="./assets/anot/a11.jpg" alt="Profile picture" class="ani-pic" />
-        <img src="./assets/anot/a12.jpg" alt="Profile picture" class="ani-pic" />
-        <img src="./assets/anot/a13.jpg" alt="Profile picture" class="ani-pic" />
-        <img src="./assets/anot/a14.jpg" alt="Profile picture" class="ani-pic" />
-        <img src="./assets/anot/a15.jpg" alt="Profile picture" class="ani-pic" />
-        <img src="./assets/anot/a16.jpg" alt="Profile picture" class="ani-pic" />
-      </div>
+<section id="another">
+  <div class="section-container1">
+    <h1 class="title">All Project Was Joined</h1>
+    <div class="process-details-container"></div>
+
+    <div class="section__ani-container1">
+      <img src="./assets/anot/a1.jpg" alt="Profile picture" class="ani-pic" />
+      <img src="./assets/anot/a2.jpg" alt="Profile picture" class="ani-pic" />
+      <img src="./assets/anot/a17.jpg" alt="Profile picture" class="ani-pic" />
+      <img src="./assets/anot/a4.jpg" alt="Profile picture" class="ani-pic" />
+      <img src="./assets/anot/a22.jpg" alt="Profile picture" class="ani-pic" />
+      <img src="./assets/anot/a5.jpg" alt="Profile picture" class="ani-pic" />
+      <img src="./assets/anot/a6.jpg" alt="Profile picture" class="ani-pic" />
 
     </div>
-  </section>
+
+ <div class="section__ani-container1">
+       <img src="./assets/anot/a7.jpg" alt="Profile picture" class="ani-pic" />
+      <img src="./assets/anot/a8.jpg" alt="Profile picture" class="ani-pic" />
+      <img src="./assets/anot/a18.jpg" alt="Profile picture" class="ani-pic" />
+      <img src="./assets/anot/a23.jpg" alt="Profile picture" class="ani-pic" />
+      <img src="./assets/anot/a24.jpg" alt="Profile picture" class="ani-pic" />
+      <img src="./assets/anot/a25.jpg" alt="Profile picture" class="ani-pic" />
+      <img src="./assets/anot/a26.jpg" alt="Profile picture" class="ani-pic" />
+     
+      
+
+    </div>
+
+     <div class="section__ani-container1">
+       <img src="./assets/anot/a9.jpg" alt="Profile picture" class="ani-pic" />
+      <img src="./assets/anot/a10.jpg" alt="Profile picture" class="ani-pic" />
+      <img src="./assets/anot/a20.jpg" alt="Profile picture" class="ani-pic" />
+      <img src="./assets/anot/a21.jpg" alt="Profile picture" class="ani-pic" />
+      <img src="./assets/anot/a11.jpg" alt="Profile picture" class="ani-pic" />
+      <img src="./assets/anot/a12.jpg" alt="Profile picture" class="ani-pic" />
+      <img src="./assets/anot/a13.jpg" alt="Profile picture" class="ani-pic" />
+    </div>
+    <div class="section__ani-container1">
+    <img src="./assets/anot/a28.jpg" alt="Profile picture" class="ani-pic" />
+      <img src="./assets/anot/a19.jpg" alt="Profile picture" class="ani-pic" />
+      <img src="./assets/anot/a29.jpg" alt="Profile picture" class="ani-pic" />
+      <img src="./assets/anot/a30.jpg" alt="Profile picture" class="ani-pic" />
+      <img src="./assets/anot/a31.jpg" alt="Profile picture" class="ani-pic" />
+      <img src="./assets/anot/a32.jpg" alt="Profile picture" class="ani-pic" />
+      <img src="./assets/anot/a33.jpg" alt="Profile picture" class="ani-pic" />
+      
+    </div>
+
+    <div class="section__ani-container1">
+<img src="./assets/anot/a14.jpg" alt="Profile picture" class="ani-pic" />
+ <img src="./assets/anot/a27.jpg" alt="Profile picture" class="ani-pic" />
+   <img src="./assets/anot/a15.jpg" alt="Profile picture" class="ani-pic" />
+      <img src="./assets/anot/a16.jpg" alt="Profile picture" class="ani-pic" />
+    </div>
+
+
+  </div>
+</section>
+
   <!-- Contact -->
   <section id="contact">
     <p class="section__text__p1">Get in Touch</p>
@@ -489,6 +599,8 @@
       </div>
     </div>
   </section>
+
+   <!-- Footer -->
   <footer>
     <nav>
       <div class="nav-links-container">
@@ -504,7 +616,10 @@
     </nav>
     <p>Copyright &#169; 2024 Đức Hiếu. All Rights Reserved.</p>
   </footer>
-  <script src="script.js"></script>
+  <script src="/script.js">
+
+
+  </script>
   <script type="module">
     // Import the functions you need from the SDKs you need
     import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";

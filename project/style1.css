@@ -1,3 +1,6 @@
+/* SLIDE ANIMATION */
+
+
 /* GENERAL */
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
@@ -405,6 +408,9 @@ display: flex;
   gap: 4rem;
   height: 80%;
 }
+
+
+
 .section__pic1-container {
   display: flex;
   justify-content: center;
@@ -425,6 +431,24 @@ display: flex;
           
 }
 
+/* Cấu hình cơ bản cho ảnh */
+.project-pic {
+  width: 200px;          /* Kích thước cơ bản */
+  height: 150px;         /* Kích thước cơ bản */
+  object-fit: cover;     /* Giữ tỉ lệ ảnh */
+  border-radius: 8px;    /* Bo góc nhẹ */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Hiệu ứng mượt */
+  cursor: pointer;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); 
+}
+
+/* Hiệu ứng khi hover */
+.project-pic:hover {
+  transform: scale(1.1); /* Phóng to 10% */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* Bóng đổ mượt */
+  filter: brightness(1.1); /* Sáng hơn một chút */
+}
+
 
 .section__pic1-container_1 img{
   width: 180px;
@@ -435,11 +459,12 @@ display: flex;
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 .section__pic2-container img{
   width: 220px;
   height: auto;
-  margin: 0 10px
+  margin:  10px
   
 }
 .section__pj-container, .section__pj-container1{
@@ -458,7 +483,6 @@ display: flex;
   height: auto;
   margin:  5px;
 }
-
 
 
 /* VIDEOS SECTION */

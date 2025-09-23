@@ -11,4 +11,4 @@ function momodal(){
   function momodal1(){
     document.getElementById("nenmodal-2").classList.toggle("active");
     }
-  
+
