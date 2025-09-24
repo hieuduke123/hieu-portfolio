@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "portfolio-4f25b"
-  }
+    "default": "portfolio-4f25b",
+    "production": "portfolio-4f25b"
+  },
+  "targets": {},
+  "etags": {}
 }
